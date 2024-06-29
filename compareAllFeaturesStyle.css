@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Happy Display';
+    src: url('fonts/HappyDisplay-Bold.woff') format('woff');
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    font-family: 'Happy Display';
+    color: #0b5cff;
+}
+table td{
+    padding: 20px;
+    /* border: 2px solid grey; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; /* Zebra striping for rows */
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 9.5%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 12%;
+    text-align: center;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 12%;
+    text-align: center;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 12%;
+    text-align: center;
+}
+th:nth-child(5), td:nth-child(5) {
+    width: 12%;
+    text-align: center;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(224, 224, 224);
+    border-radius: 50px;
+}
